@@ -1,24 +1,8 @@
-
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
-
-
-Welcome to your Rails project on Cloud9 IDE!
-
-To get started, just do the following:
-
-1. Run the project with the "Run Project" button in the menu bar on top of the IDE.
-2. Preview your new app by clicking on the URL that appears in the Run panel below (https://HOSTNAME/).
-
-Happy coding!
-The Cloud9 IDE team
-
-
-## Support & Documentation
-
-Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE. 
-To watch some training videos, visit http://www.youtube.com/user/c9ide
+cần cài ruby và rails, có thể tham khảo ở đây https://gorails.com/setup/ubuntu/16.04
+cài xong thì cd vào good_hotel, mở terminal và lần lượt nhập các lệnh sau:
+bundle install
+rails db:create
+rails db:seed
+rails s (gõ lệnh này mỗi khi muốn chạy chương trình)
+NOTE: project sử dụng postgresql, vào file config/database.yml có 2 dòng user và password thì đổi thành trong máy của bạn
+tài khoản admin có sẵn email: admin@gmail.com, password: adminadmin
