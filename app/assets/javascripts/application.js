@@ -21,6 +21,7 @@
 //= require ratyrate
 //= require turbolinks
 //= require_tree .
+//= require gmaps/google
 
 function handleStar(i) {
   var j,k;

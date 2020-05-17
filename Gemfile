@@ -7,10 +7,14 @@ gem 'cloudinary'
 gem 'coffee-rails', '~> 4.2'
 gem 'config'
 gem 'devise'
+gem "omniauth"
+gem "omniauth-google-oauth2"
+gem "omniauth-facebook"
 gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
 gem 'figaro'
 gem 'gemoji'
 gem 'jbuilder', '~> 2.0'
+gem 'gmaps4rails'
 gem 'jquery-rails'
 gem 'jquery-turbolinks'
 gem 'kaminari'
@@ -19,7 +23,7 @@ gem 'pg_search'
 gem 'rails', '5.2.1'
 gem 'rails_admin', github: 'sferik/rails_admin'
 gem 'railties'
-gem 'ratyrate', :git => 'git://github.com/dboggs95/rails-5-ratyrate.git', :branch => 'patch-1'
+gem 'ratyrate'
 gem 'redis'
 gem 'sass-rails', '~> 5.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
