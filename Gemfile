@@ -35,7 +35,7 @@ gem 'activity_notification'
 
 group :development, :test do
   gem 'byebug'
-  gem 'puma', '~> 3.0'
+  gem 'puma', '~> 5.6'
 end
 
 group :development do
